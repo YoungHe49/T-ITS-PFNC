@@ -12,9 +12,33 @@ This project provides code implementation about how to use the Parameter-Free No
 
 <!-- We defined a parameter-free nonconvex regularizer and utilized it to construct two low-rank tensor completion models, aiming to improve the **precision**, **applicability**, and **robustness** of traffic data recovery. -->
 
-<!-- ## Model description
-We define a log-based nonconvex regularizer to approximate tensor algebraic rank, which can also simultaneously increase the punishment on noise and decrease the punishment on structural information. Specially, the regularizer does not involve any parameter.
- -->
+## Model description
+We define a log-based nonconvex regularizer to approximate tensor algebraic rank, which can also simultaneously increase the punishment on noise and decrease the punishment on structural information:
+
+
+<p align="center">
+<img align="middle" src="https://github.com/YoungHe49/T-ITS-PFNC/blob/main/Figures/log%20relaxation.png" width="200" />
+</p>
+
+then we utilized it to construct a low-rank tensor completion model(TC-PFNC):
+
+<p align="center">
+<img align="middle" src="https://github.com/YoungHe49/T-ITS-PFNC/blob/main/Figures/TC-PFNC%20objective.png" width="290" />
+</p>
+
+
+In order to eliminate the nagative effects of outliers on traffic data recovery, we extended TC-PFNC to a robust version (RTC-PFNC) by introducing a anomaly term and reformulated the low-rank tensor completion model as:
+
+<p align="center">
+<img align="middle" src="https://github.com/YoungHe49/T-ITS-PFNC/blob/main/Figures/RTC-PFNC%20objective.png" width="270" />
+</p>
+
+<p align="center">
+<img align="middle" src="https://github.com/YoungHe49/T-ITS-PFNC/blob/main/Figures/Illustration(h).png" width="900" />
+</p>
+
+
+
 ## Datasets
 In this repository, we have used four real-world traffic datasets to show how to implement our model, they are:
 
