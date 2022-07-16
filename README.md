@@ -25,6 +25,9 @@ The datasets is also avaliable in [Transdim](https://github.com/xinychen/transdi
 
 ## Recovery Performance
 - **TC-PFNC**
-- 
-![example](https://github.com/YoungHe49/T-ITS-PFNC/blob/main/Figures/0s-B-NM-0.6-link6.pdf)
+
+![example](https://github.com/YoungHe49/T-ITS-PFNC/blob/main/Figures/0s-G-NM-0.6-link103.png)
   *(a) Time series of actual and estimated speed within two weeks from August 1 to 14.*
+
+![example](https://github.com/YoungHe49/T-ITS-PFNC/blob/main/Figures/0s-S-NM-0.6-link9.png)
+  *(b) Time series of actual and estimated speed within two weeks from January 1 to 14.*
