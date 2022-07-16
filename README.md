@@ -8,7 +8,9 @@
 >This is the code repository for paper 'A Parameter-free Nonconvex Low-rank Tensor Completion Model for Spatiotemporal Traffic Data Recovery' which is submitted to IEEE Transactions on Intelligent Transportation Systems.
 
 ## Overview
-This project provides code implementation about how to use the Parameter-Free Non-Convex Tensor Completion model (TC-PFNC) and its robust extension(RTC-PFNC) to achieve accurate and robust traffic data recovery. We defined a parameter-free nonconvex regularizer and utilized it to construct two low-rank tensor completion models, aiming to improve the **precision**, **applicability**, and **robustness** of traffic data recovery.
+This project provides code implementation about how to use the Parameter-Free Non-Convex Tensor Completion model (TC-PFNC) and its robust extension(RTC-PFNC) to achieve accurate and robust traffic data recovery.
+
+<!-- We defined a parameter-free nonconvex regularizer and utilized it to construct two low-rank tensor completion models, aiming to improve the **precision**, **applicability**, and **robustness** of traffic data recovery. -->
 
 <!-- ## Model description
 We define a log-based nonconvex regularizer to approximate tensor algebraic rank, which can also simultaneously increase the punishment on noise and decrease the punishment on structural information. Specially, the regularizer does not involve any parameter.
