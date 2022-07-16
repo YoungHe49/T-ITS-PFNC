@@ -24,5 +24,7 @@ In this repository, we have used four real-world traffic datasets to show how to
 The datasets is also avaliable in [Transdim](https://github.com/xinychen/transdim).
 
 ## Recovery Performance
-### TC-PFNC
-
+- **TC-PFNC**
+- 
+![example](https://github.com/YoungHe49/T-ITS-PFNC/blob/main/Figures/0s-B-NM-0.6-link6.pdf)
+  *(a) Time series of actual and estimated speed within two weeks from August 1 to 14.*
