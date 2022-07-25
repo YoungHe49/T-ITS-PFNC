@@ -47,7 +47,7 @@ In this repository, we have used four real-world traffic datasets to show how to
 - **[Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data)**: This data set contains freeway traffic speed from 323 loop detectors with a 5-minute resolution (i.e., 288 time intervals per day) over the first four weeks of January, 2015 in Seattle, USA. The tensor size is 323 × 288 × 28.
 - **[Birmingham parking occupancy data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)**: This data set registers occupancy (i.e., number of parked vehicles) of 30 car parks in Birmingham City for every half an hour between 8:00 and 17:00 over more than two months (77 days from October 4, 2016 to December 19, 2016). The tensor size is 30 × 18 × 77.
 
-The datasets is also avaliable in [Transdim](https://github.com/xinychen/transdim).
+The datasets are also available in [Transdim](https://github.com/xinychen/transdim).
 
 ## Recovery Performance
 - **TC-PFNC**
