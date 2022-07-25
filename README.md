@@ -5,7 +5,7 @@
 
 **P**arameter-**F**ree **N**on-**C**onvex low-rank tensor completion, PFNC
 
->This is the code repository for our paper 'A Parameter-free Nonconvex Low-rank Tensor Completion Model for Spatiotemporal Traffic Data Recovery' which is submitted to IEEE Transactions on Intelligent Transportation Systems.
+>This is the code repository for our paper 'A Parameter-free Nonconvex Low-rank Tensor Completion Model for Spatiotemporal Traffic Data Recovery' which is submitted to IEEE Transactions on Intelligent Transportation Systems(T-ITS).
 
 ## Overview
 This project provides code implementation about how to use the Parameter-Free Non-Convex Tensor Completion model (TC-PFNC) and its robust extension (RTC-PFNC) to achieve accurate and robust traffic data recovery.
